@@ -83,23 +83,23 @@ li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px; /* Ensure enough space for each logo */
+    width: 120px; 
     height: 120px;
 }
 
 .log {
     width: 100%;
-    height: auto; /* Keep aspect ratio consistent */
-    object-fit: contain; /* Ensures the image fits inside the box */
+    height: auto; 
+    object-fit: contain; 
 }
 
 .logos {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; /* Wrap the logos in case of smaller screen sizes */
+    flex-wrap: wrap; 
     margin-top: 50px;
-    gap: 20px; /* Add some space between logos */
+    gap: 20px; 
 }
 .b1{
     width: 300px;
@@ -133,33 +133,32 @@ li:hover {
     border: 1px solid black;
     margin-top: 100px;
     display: flex;
-    flex-wrap: wrap; /* Allows the boxes to wrap to the next line */
-    justify-content: center; /* Centers the boxes */
-    gap: 20px; /* Space between the boxes */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .box-1 {
     margin: 30px;
-    background-color: #f9f9f9; /* Light background for the boxes */
-    border: 1px solid #ccc; /* Light border around the boxes */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Inner padding for the content */
-    text-align: center; /* Center text */
-    flex: 1 1 calc(33.333% - 20px); /* Responsive size (3 boxes per row) */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for visual depth */
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    text-align: center; 
+    flex: 1 1 calc(33.333% - 20px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Ensure the images are responsive */
+
 .box-1 img {
-    max-width: 100%; /* Image scales to fit the box */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 .detail-us
 {
     text-align: center;
     padding-top: 50px;
     width: 47vh ;
-    /* padding-top: 9px; */
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 9px;
@@ -169,7 +168,6 @@ li:hover {
 {
     width: 40px;
     padding-top: 10px;
-    /* padding-left: -40px; */
     margin-left: -190px;
 }
 
@@ -213,7 +211,6 @@ li:hover {
 {
     background-color: rgb(3, 0, 0);
     width:40vh;
-    /* margin-top: 70px; */
     color: whitesmoke;
 
 }
