@@ -310,13 +310,13 @@
         margin-bottom: 150px;
     }
     .card-body3{
-        margin-top: 220px;
+        margin-top: 270px;
     }
     .program-card{
         text-align: center;
     }
     .professional-hr{
-        margin-top: 250px;
+        margin-top: 310px;
     }
     .product-card{
         width: 500px;
@@ -339,7 +339,12 @@
         align-items: center;
         margin-left: 100px;
     }
-    footer-section {
+    .sent-btn{
+        width: 100%;
+        align-items: center;
+        margin-left: 130px;
+    }
+    .footer-section {
         flex-direction: column; 
         align-items: center;
     }
