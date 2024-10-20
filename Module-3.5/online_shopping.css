@@ -17,7 +17,6 @@
 .btn-outline-success{
     width:120px;
     height: 50px;
-    /* margin-bottom: 20px; */
 }
 
 .caption-box {
@@ -122,7 +121,7 @@
 
 .progress.green .progress-left .progress-bar {
     border-color: #49D294;
-    transform: rotate(171deg); /* 95% of 180deg */
+    transform: rotate(171deg); 
 }
 .progress.green .progress-right .progress-bar {
     border-color: #49D294;
@@ -131,7 +130,7 @@
 
 .progress.yellow .progress-left .progress-bar {
     border-color: #FEB546;
-    transform: rotate(162deg); /* 90% of 180deg */
+    transform: rotate(162deg); 
 }
 .progress.yellow .progress-right .progress-bar {
     border-color: #FEB546;
@@ -140,7 +139,7 @@
 
 .progress.blue .progress-left .progress-bar {
     border-color: #4C8DF1;
-    transform: rotate(144deg); /* 80% of 180deg */
+    transform: rotate(144deg);
 }
 .progress.blue .progress-right .progress-bar {
     border-color: #4C8DF1;
@@ -169,11 +168,11 @@
 
 .card-body {
     border: 1px solid gray;
-    border-radius: 8px; /* Optional: Add some border radius */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    border-radius: 8px; 
+    padding: 20px; 
     color: white;
-    position: relative; /* Necessary for overlay positioning */
-    overflow: hidden; /* Ensure overflow is hidden for the overlay */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .card-body1 {
@@ -203,7 +202,6 @@
     margin-top: 300px;
 }
 
-/* Optional: Adding dimming effect */
 .card-body::before {
     content: '';
     position: absolute;
@@ -211,27 +209,27 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust for dimming effect */
-    z-index: 1; /* Overlay behind text */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
 
 .card-body h5, .card-body h6, .card-body p, .card-body a {
-    position: relative; /* Ensure text is above the overlay */
-    z-index: 2; /* Text appears above the dimming effect */
+    position: relative; 
+    z-index: 2; 
 }
 
 .btn {
-    margin-top: 15px; /* Space between the text and the button */
-    background-color: #007bff; /* Primary button color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding around button text */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 15px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 
@@ -274,6 +272,86 @@
     font-size: large;
 }
 
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #f4f4f4;
+    flex-wrap: wrap; 
+}
+
+.footer-box-1 {
+    flex-basis: 22%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
 
 
+
+
+@media (max-width: 768px) {
+    .clubDetailsDiv{
+        margin-top: -10px;
+    }
+    .hr4{
+        margin-bottom: 150px;
+    }
+    .card-body3{
+        margin-top: 220px;
+    }
+    .program-card{
+        text-align: center;
+    }
+    .professional-hr{
+        margin-top: 250px;
+    }
+    .product-card{
+        width: 500px;
+        height: 400px;
+    }
+    .card_img{
+        margin-left: 100px;
+    }
+    .client-q1{
+        margin-top: 2450px;
+    }
+    .client-q2{
+        margin-bottom: 100px;
+    }
+
+    .from-container{
+        margin-right: 700px;
+    }
+    .contact-us{
+        align-items: center;
+        margin-left: 100px;
+    }
+    footer-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .footer-box-1 {
+        flex-basis: 100%; 
+        text-align: center; 
+        padding: 10px;
+    }
+    
+    .input-box {
+        width: 90%; 
+    }
+}
 
